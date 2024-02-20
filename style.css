@@ -1,6 +1,9 @@
 body {
     background-color: #F3F5FC;
 }
+h1{
+    display: none;
+}
 #contenedor_principal{
     padding: 40px;
     display: flex;
