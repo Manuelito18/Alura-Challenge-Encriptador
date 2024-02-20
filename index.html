@@ -13,17 +13,21 @@
     <h1>Alura Challenge Encriptador</h1>
     <div id="contenedor_principal">
         <div id="contenedor_Encriptador">
-            <img src="recursos/Logo.png" alt="Logo de Alura">
-            <div>
-                <textarea name="texto_a_encriptar" id="TextEn" cols="30" rows="10" placeholder="Ingrese el texto aquí" ></textarea>
-                <div>
-                    <div>
+            <div id="contenedor_logo" >
+                <img src="recursos/Logo.png" alt="Logo de Alura">
+            </div>
+            <div id="contenedor_input" >
+                <div id="contenedor_textarea">    
+                    <textarea name="texto_a_encriptar" id="TextEn" cols="30" rows="10" placeholder="Ingrese el texto aquí" ></textarea>
+                </div>
+                <div id="contenedor_ex_buttons">
+                    <div id="contenedor_exte">
                         <img src="recursos/bi_exclamation-circle-fill.png" alt="signo de exclamacion">
                         <p>Solo letras minúsculas y sin acentos</p>
                     </div>
-                    <div>
-                        <button type="button">Encriptar</button>
-                        <button type="button">Desencriptar</button>
+                    <div id="contenedor_buttons">
+                        <button id="bt_encrip" type="button">Encriptar</button>
+                        <button id="bt_desenc" type="button">Desencriptar</button>
                     </div>
                 </div>
             </div>
@@ -31,13 +35,12 @@
         </div>
         
         <div id="contenedor_banner">
-            <div>
+            <div id="contenedor_muneco_tex">
                 <img src="recursos/Muñeco.png" alt="">
-                <div>
+                <div id="contenedor_text">
                     <p>Ningún mensaje fue encontrado</p>
                     <p>Ingresa el texto que deseas encriptar o desencriptar</p>
                 </div>
-
             </div>
 
         </div>
