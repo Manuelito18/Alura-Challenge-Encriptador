@@ -1,0 +1,10 @@
+body {
+    background-color: #F3F5FC;
+}
+#contenedor_principal{
+    padding: 40px;
+    display: flex;
+}
+/* #contenedor_Encriptador{
+    
+} */
